@@ -25,7 +25,7 @@ Dada una secuencia de matrices unitarias en una dinámica del sistema, lo que de
 Son las librerias de libvecspaces.py y salto_clasico_cuántico.py y simplemente se usaron para poder desarrolar la libreria principal, la explicación de cada una de estas librerias ya está en su propio repositorios
 ### ***libreria testobser_med.py:***
 Aquí se encuentran las pruebas que se hicieron a las funciones de capitulo4.py son soportes que idican que las funciones funcionan correctamente, se hicieron dos pruebas por funcion, al correr usted este código recibirá un ok que indica que en todos los test el resultado es correcto
-### ***Discusión 4.5.2 y 4.5.3.py:***
+### ***Discusión 4.5.2 y 4.5.3.pdf:***
 es un archivo PDF donde se encuentra la solución a los puntos 4.5.2 y 4.5.3 del libro Quantum Computing for computers scientists de Mannucci y Yanofsky
 ### ***Solucion problemas:***
 en la libreria principal capitulo4.py después de las funciones usted encontrará unos numerales como 4.3.1, son algunos ejercicios desarrollados con la ayuda de las funciones que aqui vamos a explicar:
