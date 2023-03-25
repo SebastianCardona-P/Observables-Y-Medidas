@@ -109,28 +109,28 @@ if __name__ == "__main__":
     #print(finalstate([[[(1 + 1j)/2, (1 - 1j)/2], [(1 - 1j)/2, (1 + 1j)/2]],[[1, 0], [0, 1j]]],[1j, 2j]))
 
     # 4.3.1
-    # print(vectores_propios([[0,1],[1,0]]))
+    print(vectores_propios([[0,1],[1,0]]))
 
     # 4.3.2
-    #print(transitar_a_vectores_propios([[0, 1], [1, 0]], [0, 1]))
-    # print(valores_propios([[0, 1], [1, 0]]))
-    # print(media([[0, 1], [1, 0]], [0, 1]))
+    print(transitar_a_vectores_propios([[0, 1], [1, 0]], [0, 1]))
+    print(valores_propios([[0, 1], [1, 0]]))
+    print(media([[0, 1], [1, 0]], [0, 1]))
 
     # 4.4.1
-    #A =[[0,1],[1,0]]
-    #c = (2**(1/2))/2
-    #B = [[c,c],[c,-c]]
-    #multi = lvs.productoma(A,B)
-    #print(lvs.unitario(A))
-    #print(lvs.unitario(B))
-    #print(lvs.unitario(multi))
+    A =[[0,1],[1,0]]
+    c = (2**(1/2))/2
+    B = [[c,c],[c,-c]]
+    multi = lvs.productoma(A,B)
+    print(lvs.unitario(A))
+    print(lvs.unitario(B))
+    print(lvs.unitario(multi))
 
     # 4.4.2
-    #c = 1/math.sqrt(2)
-    #billar = [[0,c,c,0,],[1j*c,0,0,c],[c,0,0,1j*c],[0,c,-c,0]]
-    #billar1 = [[0,c,c,0,],[c,0,0,-c],[c,0,0,c],[0,-c,c,0]]
-    #state = scc.complejos(billar,[1,0,0,0],3)
-    #state1 = scc.calculo(billar1,[1,0,0,0],3)
-    #print(state)
-    #print(state1)
+    c = 1/math.sqrt(2)
+    billar = [[0,c,c,0,],[1j*c,0,0,c],[c,0,0,1j*c],[0,c,-c,0]]
+    billar1 = [[0,c,c,0,],[c,0,0,-c],[c,0,0,c],[0,-c,c,0]]
+    state = scc.complejos(billar,[1,0,0,0],3)
+    state1 = scc.calculo(billar1,[1,0,0,0],3)
+    print(state)
+    print(state1)
 
