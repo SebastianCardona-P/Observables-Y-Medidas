@@ -1,6 +1,6 @@
 # Observables-Y-Medidas📐 👀
 Este repositorio contiene la aplicación de diferentes operaciones dentro de los observables y medidas de un sistema cuántico, además de la explicación de unos ejercicios para afianzar el conocimiento
-## Autor:
+## Autor:👨‍
 ***Sebastian Cardona***
 
 ## El repositorio contiene: 
