@@ -98,7 +98,7 @@ class TestSalto_Observables_Medidas(unittest.TestCase):
         def test_finalstate_2(self):
                 seq = [[[0,1],[1,0]],[[(math.sqrt(2))/2,(math.sqrt(2))/2],[(math.sqrt(2))/2,-1*(math.sqrt(2))/2]]]
                 ket = [1+6j,3-2j]
-                resultm = "Alguna de las matrices no son unitarias"
+                resultm = [(2.8284271247461903+2.8284271247461907j), (1.4142135623730954-5.656854249492381j)]
                 resultc = om.finalstate(seq,ket)
                 self.assertEqual(resultm,resultc)
 
