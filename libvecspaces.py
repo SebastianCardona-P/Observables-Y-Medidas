@@ -147,7 +147,7 @@ def unitario(a):
             verificador = True
             for i in range(len(comprobador)):
                 for j in range(len(comprobador)):
-                    comprobador[i][j] = round(comprobador[i][j],1)
+                    comprobador[i][j] = round(comprobador[i][j].real,1)
                     if (i == j and comprobador[i][j] != 1) or (i != j and comprobador[i][j] != 0):
                         verificador = False
                         break
